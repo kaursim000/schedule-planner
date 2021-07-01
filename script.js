@@ -140,4 +140,9 @@ form9.on('submit', handleFormSubmit9);
 //     console.log('3PM:', input3.val());
 //     console.log('4PM:', input4.val());
 //     console.log('5PM:', input5.val());
-// // localStorage.setItem('input');
+
+
+
+localStorage.setItem("inputTime9" , input9.val());
+var userInput9 = localStorage.getItem("inputTime9")
+console.log(userInput9)
