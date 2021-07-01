@@ -55,6 +55,10 @@ function handleFormSubmit(event) {
   
     console.log('9AM:', input9.val());
     
+    localStorage.setItem("inputTime9" , input9.val());
+    var userInput9 = localStorage.getItem("inputTime9")
+    console.log(userInput9)
+
 }
 form1.on('submit', handleFormSubmit);
 
@@ -64,6 +68,9 @@ function handleFormSubmit2(event) {
   
     console.log('10AM:', input10.val());
     
+    localStorage.setItem("inputTime10" , input10.val());
+    var userInput10 = localStorage.getItem("inputTime10")
+    console.log(userInput10)
 }
 form2.on('submit', handleFormSubmit2);
 
@@ -73,6 +80,9 @@ function handleFormSubmit3(event) {
   
     console.log('11AM:', input11.val());
     
+    localStorage.setItem("inputTime11" , input11.val());
+    var userInput11 = localStorage.getItem("inputTime11")
+    console.log(userInput11)
 }
 form3.on('submit', handleFormSubmit3);
 
@@ -81,6 +91,10 @@ function handleFormSubmit4(event) {
     event.preventDefault();
   
     console.log('12PM:', input12.val());
+
+    localStorage.setItem("inputTime12" , input12.val());
+    var userInput12 = localStorage.getItem("inputTime12")
+    console.log(userInput12)
     
 }
 form4.on('submit', handleFormSubmit4);
@@ -91,6 +105,9 @@ function handleFormSubmit5(event) {
   
     console.log('1PM:', input1.val());
     
+    localStorage.setItem("inputTime1" , input1.val());
+    var userInput1 = localStorage.getItem("inputTime1")
+    console.log(userInput1)
 }
 form5.on('submit', handleFormSubmit5);
 
@@ -99,6 +116,10 @@ function handleFormSubmit6(event) {
     event.preventDefault();
   
     console.log('2PM:', input2.val());
+
+    localStorage.setItem("inputTime2" , input2.val());
+    var userInput2 = localStorage.getItem("inputTime2")
+    console.log(userInput2)
     
 }
 form6.on('submit', handleFormSubmit6);
@@ -108,6 +129,10 @@ function handleFormSubmit7(event) {
     event.preventDefault();
   
     console.log('3PM:', input3.val());
+
+    localStorage.setItem("inputTime3" , input3.val());
+    var userInput3 = localStorage.getItem("inputTime3")
+    console.log(userInput3)
     
 }
 form7.on('submit', handleFormSubmit7);
@@ -117,6 +142,10 @@ function handleFormSubmit8(event) {
     event.preventDefault();
   
     console.log('4PM:', input4.val());
+
+    localStorage.setItem("inputTime4" , input4.val());
+    var userInput4 = localStorage.getItem("inputTime4")
+    console.log(userInput4)
     
 }
 form8.on('submit', handleFormSubmit8);
@@ -126,6 +155,10 @@ function handleFormSubmit9(event) {
     event.preventDefault();
   
     console.log('5PM:', input5.val());
+
+    localStorage.setItem("inputTime5" , input5.val());
+    var userInput5 = localStorage.getItem("inputTime5")
+    console.log(userInput5)
     
 }
 form9.on('submit', handleFormSubmit9);
@@ -143,6 +176,3 @@ form9.on('submit', handleFormSubmit9);
 
 
 
-localStorage.setItem("inputTime9" , input9.val());
-var userInput9 = localStorage.getItem("inputTime9")
-console.log(userInput9)
