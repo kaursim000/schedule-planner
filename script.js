@@ -52,8 +52,14 @@ var input5 = $('input[name="time5"]');
 
 
 var userInput9 = localStorage.getItem("inputTime9")
-var elem = document.getElementById("input9");
-elem.innerHTML = userInput9;
+var elem9 = document.getElementById("input9");
+elem9.innerHTML = userInput9;
+
+var userInput10 = localStorage.getItem("inputTime10")
+var elem10 = document.getElementById("input10");
+elem10.innerHTML = userInput10;
+
+
 
 
 function handleFormSubmit(event) {
@@ -79,7 +85,8 @@ function handleFormSubmit2(event) {
     console.log('10AM:', input10.val());
 
     localStorage.setItem("inputTime10", input10.val());
-    var userInput10 = localStorage.getItem("inputTime10")
+    // var userInput10 = localStorage.getItem("inputTime10")
+    // console.log(userInput10)
     console.log(userInput10)
 }
 form2.on('submit', handleFormSubmit2);
