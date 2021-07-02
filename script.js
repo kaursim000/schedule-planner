@@ -59,6 +59,34 @@ var userInput10 = localStorage.getItem("inputTime10")
 var elem10 = document.getElementById("input10");
 elem10.innerHTML = userInput10;
 
+var userInput11 = localStorage.getItem("inputTime11")
+var elem11 = document.getElementById("input11");
+elem11.innerHTML = userInput11;
+
+var userInput12 = localStorage.getItem("inputTime12")
+var elem12 = document.getElementById("input12");
+elem12.innerHTML = userInput12;
+
+var userInput1 = localStorage.getItem("inputTime1")
+var elem1 = document.getElementById("input1");
+elem1.innerHTML = userInput1;
+
+var userInput2 = localStorage.getItem("inputTime2")
+var elem2 = document.getElementById("input2");
+elem2.innerHTML = userInput2;
+
+var userInput3 = localStorage.getItem("inputTime3")
+var elem3 = document.getElementById("input3");
+elem3.innerHTML = userInput3;
+
+var userInput4 = localStorage.getItem("inputTime4")
+var elem4 = document.getElementById("input4");
+elem4.innerHTML = userInput4;
+
+var userInput5 = localStorage.getItem("inputTime5")
+var elem5 = document.getElementById("input5");
+elem5.innerHTML = userInput5;
+
 
 
 
@@ -85,7 +113,7 @@ function handleFormSubmit2(event) {
     console.log('10AM:', input10.val());
 
     localStorage.setItem("inputTime10", input10.val());
-    // var userInput10 = localStorage.getItem("inputTime10")
+    var userInput10 = localStorage.getItem("inputTime10")
     // console.log(userInput10)
     console.log(userInput10)
 }
