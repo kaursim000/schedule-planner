@@ -163,8 +163,12 @@ function handleFormSubmit9(event) {
 }
 form9.on('submit', handleFormSubmit9);
 
+// if (moment().startOf('day')) {
+//     $('input[type="text"]').val('');
+//     window.localStorage.clear();
+// }
 
-
+// save.addEventListener.
 // console.log('10AM:', input10.val());
 //     console.log('11AM:', input11.val());
 //     console.log('12PM:', input12.val());
